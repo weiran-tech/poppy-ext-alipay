@@ -1,32 +1,33 @@
 {
-    "name": "poppy/ext-alipay",
-    "description": "Poppy Alipay Extension.",
-    "license": "MIT",
-    "type": "poppy-extension",
-    "authors": [
-        {
-            "name": "Mark Zhao",
-            "email": "zhaody901@126.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.4",
-        "ext-libxml": "*",
-        "ext-mcrypt": "*",
-        "ext-curl": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Poppy\\Extension\\Alipay\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Poppy\\Extension\\Alipay\\Tests\\": "tests/"
-        }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "dev"
+  "name": "poppy/ext-alipay",
+  "description": "Poppy Alipay Extension.",
+  "license": "MIT",
+  "type": "poppy-extension",
+  "authors": [
+    {
+      "name": "Mark Zhao",
+      "email": "zhaody901@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-libxml": "*",
+    "ext-mcrypt": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Poppy\\Extension\\Alipay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Poppy\\Extension\\Alipay\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "version": "4.3.0"
 }
